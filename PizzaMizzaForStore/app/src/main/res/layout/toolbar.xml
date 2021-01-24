@@ -1,0 +1,22 @@
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:elevation="4dp"
+        >
+
+        <TextView
+            android:id="@+id/action_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center"
+            android:text="Pizza Mizza"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="normal" />
+
+
+    </android.support.v7.widget.Toolbar>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="7dp"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="visible"
+        layout="@layout/detail_cheese_select" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:id="@+id/detail_cheese_shadow"
+        android:visibility="visible"
+        android:src="@drawable/shadow_bottom" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        layout="@layout/detail_quantity_select_item" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:src="@drawable/shadow_bottom" />
+
+    <include
+        android:id="@+id/size_selection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/detail_size_select_item"
+         />
+
+    <ImageView
+        android:id="@+id/detail_size_select_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:src="@drawable/shadow_bottom" />
+
+</LinearLayout>

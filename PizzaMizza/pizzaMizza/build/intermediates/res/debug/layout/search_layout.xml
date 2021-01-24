@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8D8D8"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/actionbar_items"
+        android:id="@+id/search_appbar"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:layout_below="@+id/search_appbar"
+        android:id="@+id/search_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:drawableRight="@drawable/search"
+        android:hint="@string/search_food"
+        android:lines="1"
+        android:maxLines="1"
+        android:padding="7dp"
+        android:singleLine="true"
+        android:textSize="20sp" />
+
+
+
+    <ListView
+        android:layout_below="@+id/search_text"
+        android:id="@+id/search_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:clickable="true"
+        android:divider="@android:color/transparent"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" />
+    <ImageView
+        android:layout_below="@+id/search_text"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:src="@drawable/shadow_bottom" />
+</RelativeLayout><!-- From: file:/Users/anar/Android/PizzaMizza/pizzaMizza/src/main/res/layout/search_layout.xml -->

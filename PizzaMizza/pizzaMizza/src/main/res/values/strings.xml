@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pizza Mizza</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="pick_size">Pick a size</string>
+    <string name="carry_out">CARRY OUT</string>
+    <string name="delivery">DELIVERY</string>
+    <string name="item_remove_message">Do you really want to delete this item?</string>
+    <string name="app_exit_message">Do you really want to quit this app?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="food_and_beverage">Food &amp; Beverage:</string>
+    <string name="tax_and_deposit">Tax &amp; Bottle Deposit:</string>
+    <string name="total">Total</string>
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+    <string name="name">Name</string>
+    <string name="email">E-MAIL</string>
+    <string name="mobile_phone">MOBILE PHONE</string>
+    <string name="address_line1">ADDRESS LINE 1</string>
+    <string name="address_line2">ADDRESS LINE 2</string>
+    <string name="city">CITY</string>
+    <string name="postcode">POST CODE</string>
+    <string name="additional_notes">Additional notes</string>
+    <string name="place_order">PLACE ORDER</string>
+    <string name="order_successful_text">YOUR ORDER PROCCESSED \n   SUCCESSFULLY</string>
+    <string name="congratulations">CONGRATULATIONS</string>
+    <string name="select_topping">SELECT TOPPINGS</string>
+    <string name="select_pizza_size">Select size of Pizza</string>
+    <string name="your_orders">your orders</string>
+    <string name="menu">MENU</string>
+    <string name="coupons">COUPONS</string>
+    <string name="card_empty_message">Your CART is empty. To get started please select MENU button.</string>
+    <string name="add_topping">Add Topping</string>
+    <string name="sign_in">sign In</string>
+    <string name="password">PASSWORD</string>
+    <string name="remember_credentials">Remember my credentials.</string>
+    <string name="log_in">log in</string>
+    <string name="profile">profile</string>
+    <string name="categories">categories</string>
+    <string name="not_selected">NOT SELECTED</string>
+    <string name="selected">SELECTED</string>
+    <string name="build">BUILD</string>
+    <string name="create_your_own">CREATE YOUR OWN</string>
+    <string name="pizzas">PIZZAS</string>
+    <string name="history">HISTORY</string>
+    <string name="progress">PROGRESS</string>
+    <string name="no_account_message">DONT HAVE AN ACCOUNT?</string>
+    <string name="registration">REGISTRATION</string>
+    <string name="password_retype">RE-TYPE PASSWORD</string>
+    <string name="subscribe_deals">SUBSCRIBE TO DAILY DEALS.</string>
+    <string name="sign_up">sign up</string>
+    <string name="search_food">SEARCH</string>
+    <string name="save">SAVE</string>
+    <string name="add_to_basket">ADD TO BASKET</string>
+
+    <string-array name="food_sizes">
+        <item>@string/medium</item>
+        <item>@string/large</item>
+    </string-array>
+
+    <string name="welcome">WELCOME</string>
+    <string name="loading_menu">Loading menu ...</string>
+    <string name="search">search</string>
+    <string name="settings">settings</string>
+    <string name="about">about</string>
+    <string name="my_orders">my orders</string>
+    <string name="logout">logout</string>
+    <string name="done">done</string>
+    <string name="edit">edit</string>
+    <string name="checkout">CHECKOUT</string>
+    <string name="add">add</string>
+    <string name="pizza">pizza</string>
+    <string name="dessert">dessert</string>
+    <string name="pasta">pasta</string>
+    <string name="sauce">sauce</string>
+    <string name="drink">drink</string>
+    <string name="pannini">panini</string>
+    <string name="pannini_sauce">pannini sauce</string>
+    <string name="side_orders">side orders</string>
+    <string name="salad">salad</string>
+    <string name="edit_toppings">edit toppings</string>
+    <string name="medium">MEDIUM</string>
+    <string name="large">LARGE</string>
+    <string name="small">SMALL</string>
+    <string name="extra">extra</string>
+    <string name="none">none</string>
+    <string name="normal">normal</string>
+    <string name="exit">Exit</string>
+    <string name="remove">remove</string>
+    <string name="whole">whole</string>
+    <string name="left">left</string>
+    <string name="right">right</string>
+    <string name="azn">AZN</string>
+
+    <string name="mobile_example">e.g +994552257732</string>
+    <string name="apt_example">e.g 6</string>
+    <string name="street_example">e.g Samir Jafarov</string>
+    <string name="name_example">e.g Azad</string>
+    <string name="postcode_example">e.g AZ1131</string>
+
+    <string name="minOrder_toast">For selected region your total order should be at least </string>
+    <string name="unable_to_connect_toast">Unable to connect server. Please check your internet connection!</string>
+    <string name="about_text">PizzaMizza şirkəti 2014-cü ildən başlayaraq Avropanın ən yaxşı Pizza təcrübəsini Bakıda təqdim etməyə çalışır. Yemək ehtiyaclarını daha çox ləzzət və keyfiyyətlə assosiasiya etməyə çalışan aşbazlarımız illərlə bu təcrübəni Avropada həyata keçirmiş və bir çox uğurlar əldə etmişlər. Biz müştərilərimizə ən yaxşı pizza təcrübəsini vəd edirik. Bu həm məhsul həm məkan həm servis həm də qiyməti əhatə edir. Düşünürük ki, bu təcrübənin heç vaxt bitməyəcəyini sizə təmin edə biləcəyik.
+Ən yaxşı pizza təcrübəsi PizzaMizzada  </string>
+
+    <string name="family_name_example">e.g Humbatman</string>
+    <string name="notes_example">e.g Call on delivery or I will take orders after 3 hours from store</string>
+    <string name="close">close</string>
+    <string name="fill_name_message">Please type your name in order to continue</string>
+    <string name="fill_familyname_message">Please type your family name in order to continue</string>
+    <string name="fill_phone_message">Please include your mobile phone in order to continue</string>
+    <string name="ok">OK</string>
+    <string name="order_success_text">Your order successfully placed. We will contact you to confirm your order. Your order id is: </string>
+
+    <string name="no_orders">You do not have any orders to show right now</string>
+    <string name="orders_proccesing_text">Your orders have been processing....</string>
+    <string name="getstarted">get started</string>
+    <string name="fill_postcode_message">Please type your postcode in order to continue.</string>
+    <string name="fill_apt_name_message">Please type your apartment number in order to continue</string>
+    <string name="fill_street_name_message">Please type your street address in order to continue</string>
+    <string name="select_zone_message">Please select your zone in order to continue</string>
+    <string name="select_zone">Select your zone</string>
+
+    <string name="connection"> Connection </string>
+    <string name="re_try"> Re-try </string>
+
+    <string name="zone">Zone</string>
+    <string name="minorder">Minimum Order</string>
+    <string name="delete">Delete</string>
+
+    <string name="order">Order</string>
+    <string name="price">Price</string>
+    <string name="street">Street</string>
+
+
+    <string name="apartment">Apartment</string>
+    <string name="address_details">address details</string>
+    <string name="personal_details">personal details</string>
+    <string name="surname">Surname</string>
+    <string name="phone">Phone</string>
+    <string name="postal">Postal</string>
+    <string name="date">date</string>
+    <string name="order_details">order details</string>
+    <string name="relax_your_order_is_placed">Relax, your order is placed</string>
+
+    <string name="wrong_number_format">Wrong number format</string>
+    <string name="wrong_number_format_msg">Please, include valid phone number in order to continue.</string>
+    <string name="customer">customer</string>
+
+    <string name="yes_i_confirm">Yes, I confirm</string>
+    <string name="phone_confirmation">Are you sure the number shown above is valid and yours? Please, note that to confirm your order we need to contact you.</string>
+
+    <string name="quantity">QUANTITY -</string>
+    <string name="language">Language</string>
+    <string name="please_wait">Please wait</string>
+
+
+    <string name="status_new">NEW</string>
+    <string name="status_accepted">ACCEPTED</string>
+    <string name="status_making">MAKING</string>
+    <string name="status_send_to_deliver">ON THE WAY</string>
+    <string name="status_delivered">DELIVERED</string>
+    <string name="status_declined">DECLINED</string>
+    <string name="status_taken">TAKEN</string>
+
+    <string name="status_ready">READY</string>
+
+    <string name="order_status_updated">Order status updated</string>
+    <string name="status_accepted_text">Order #xx is now accepted. You will be notified on further updates.</string>
+    <string name="status_making_text">Order #xx is making.</string>
+    <string name="status_ready_text">Order #xx is ready.</string>
+    <string name="status_on_the_way_text">Order #xx is on the way and will be delivered soon.</string>
+    <string name="status_delivered_text">Order #xx is delivered.</string>
+    <string name="status_declined_text">Order #xx is declined. Please, contact us to get further details. Contact number *1415.</string>
+    <string name="status_taken_text">Order #xx is taken.</string>
+
+
+    <string name="header_small">Small sss</string>
+    <string name="header_medium">Medium mmm</string>
+    <string name="header_large">Large lll</string>
+
+    <string name="pizza_unit_small">20cm</string>
+    <string name="pizza_unit_medium">26cm</string>
+    <string name="pizza_unit_large">32cm</string>
+
+    <string name="panini_unit_medium">6 pieces</string>
+    <string name="panini_unit_large">9 pieces</string>
+
+    <string name="pasta_unit_medium">400 gr.</string>
+
+    <string name="salad_unit_medium">160 gr.</string>
+    <string name="salad_unit_large">300 gr.</string>
+
+    <string name="wrap">wrap</string>
+    <string name="soup">soup</string>
+
+    <string name="store_close">Pizza Mizza is closed right now. Our working hours are from 11:00 till 22:00. Please note that, you can view our products but you will not be able to place order.</string>
+    <string name="store_open">Pizza Mizza is now open. We will close on 22:00 .</string>
+    <string name="we_are_closed">We are closed</string>
+    <string name="we_are_open">We are open</string>
+    <string name="salad_sauce">salad sauce</string>
+    <string name="double_cheese_with_price">DOUBLE CHEESE - xx AZN</string>
+    <string name="double_cheese">double cheese</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toast_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffb292"
+    android:orientation="horizontal"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/toast_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/decline"/>
+
+    <LinearLayout
+        android:id="@+id/toast_lr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/toast_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Success"
+            android:textStyle="bold"
+            android:textColor="#de1623"
+            android:textSize="40dp"/>
+
+        <TextView
+            android:id="@+id/toast_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pulse 7 Demo for custom Toast"
+            android:textColor="#404040"
+            android:textSize="25dp"/>
+    </LinearLayout>
+
+</LinearLayout>

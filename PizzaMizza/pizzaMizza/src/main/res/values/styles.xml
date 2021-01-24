@@ -1,0 +1,58 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+    -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+            
+        -->
+        <item name="android:colorPrimary">@color/app_base_color</item>
+        <item name="android:colorPrimaryDark">@color/app_base_color_darker</item>
+        <item name="android:colorAccent">@color/app_base_accent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="DefaultButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/default_button_selector</item>
+    </style>
+    
+    <style name="ImageSelector">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/image_button_selector</item>
+    </style>
+    
+    <style name="MenuButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/menu_button_selector</item>
+    </style>
+    
+    <style name="YellowButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/yellow_button_selector</item>
+    </style>
+    
+    <style name="My_Theme">
+        <item name="android:windowTitleSize">50dp</item>
+        <item name="android:windowTitleBackgroundStyle">@android:color/black</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
+    </style>
+
+</resources>

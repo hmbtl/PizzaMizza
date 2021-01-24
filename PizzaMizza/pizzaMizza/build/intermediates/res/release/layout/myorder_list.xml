@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:paddingBottom="7dp"
+    >
+
+    <TextView
+        android:id="@+id/myorders_food_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="1 Medium - Margharitta"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="#ff545454"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="7dp"
+        />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="5.99 AZN"
+    android:textColor="#ff545454"
+    android:id="@+id/myorders_price"
+    android:textSize="11sp"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="7dp"
+    android:layout_marginRight="10dp"
+    />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myorders_food_name"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/myorders_toppings"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="-3dp"
+        android:textColor="#686868"
+        android:textSize="13sp"
+        android:text="tomat sousu, pepperoni (extra), biber mais, onion, salami, toyuq basdirmasi"
+        />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:id="@+id/myorder_shadow"
+        android:visibility="gone"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/shadow_bottom" />
+
+</RelativeLayout><!-- From: file:/Users/anar/Android/PizzaMizza/pizzaMizza/src/main/res/layout/myorder_list.xml -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/detail_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meat"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:textColor="#d50032"
+        android:textSize="16sp"
+         />
+
+</LinearLayout><!-- From: file:/Users/anar/Android/PizzaMizza/pizzaMizza/src/main/res/layout/detail_topping_header_item.xml -->

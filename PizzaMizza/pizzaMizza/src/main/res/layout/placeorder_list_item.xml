@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="#fff2f2f2">
+
+    <ImageView
+        android:id="@+id/placeorder_food_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="6dp"
+        android:background="#ffd9d9d9"
+        android:scaleType="center"
+        android:src="@drawable/pizza" />
+
+    <TextView
+        android:id="@+id/placeorder_food_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/placeorder_food_price"
+        android:layout_toRightOf="@+id/placeorder_food_image"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="6dp"
+        android:text="MAGHERITTA "
+        android:textColor="#de1625"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/placeorder_food_topping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/placeorder_food_image"
+        android:paddingBottom="6dp"
+        android:paddingLeft="20dp"
+        android:layout_below="@+id/placeorder_food_size"
+        android:gravity="left|bottom"
+        android:text="ONION  - EXTRA | TEREVEZ - NONE"
+        android:textColor="#561520"
+        android:textSize="11sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/placeorder_food_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/placeorder_food_title"
+        android:layout_marginTop="-1dp"
+        android:layout_toRightOf="@+id/placeorder_food_image"
+        android:paddingBottom="3dp"
+        android:paddingLeft="20dp"
+        android:textColor="#686868"
+        android:textSize="11sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/placeorder_food_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:text="25.00 AZN"
+        android:textColor="#686868"
+        android:textSize="12sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/placeorder_food_quantity"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/placeorder_food_image"
+        android:layout_alignTop="@+id/placeorder_food_image"
+        android:background="#de1623"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="1"
+        android:textColor="#fff"
+        android:textSize="10sp"
+        android:textStyle="normal" />
+
+</RelativeLayout>

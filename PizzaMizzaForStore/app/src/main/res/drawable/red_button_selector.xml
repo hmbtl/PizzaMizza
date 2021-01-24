@@ -1,0 +1,5 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true" android:drawable="@drawable/bar_yellow" />
+    <item android:state_enabled="false" android:drawable="@drawable/appbar_grey_thin"/>
+    <item android:drawable="@drawable/appbar_red_thin" />
+</selector>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_bg"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/menu_items_selector"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <az.nms.pizzamizza.tools.SquareImageView
+            android:id="@+id/menu_icon"
+            android:alpha=".83"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/drinks" />
+
+        <TextView
+            android:id="@+id/menu_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:text="Drinks"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/green_button_selector"
+            />
+
+        </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:src="@drawable/shadow_bottom"/>
+
+
+
+
+
+</LinearLayout>

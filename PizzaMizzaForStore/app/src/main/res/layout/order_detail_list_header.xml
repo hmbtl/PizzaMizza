@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:id="@+id/orderdetail_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEW ORDER"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#FFF"
+        android:background="#de1623"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:layout_below="@+id/orderdetail_status"
+        android:layout_width="match_parent"
+        android:id="@+id/orderdetail_status_shadow"
+        android:layout_height="15dp"
+        android:src ="@drawable/shadow_bottom"
+
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:padding="10dp"
+        android:id="@+id/orderdetail_order"
+        android:layout_below="@+id/orderdetail_status_shadow"
+        android:background="#FFF"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#DE1623"
+            android:text="TOTAL: 25.00 AZN"
+            android:id="@+id/orderdetail_price"
+            android:layout_alignParentTop="true"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="date 12/10/2015 20:14"
+            android:id="@+id/orderdetail_date"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:textColor="#686868"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="order #110012"
+            android:id="@+id/orderdetail_id"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_above="@+id/orderdetail_date"
+            android:textColor="#de1623"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="carry out"
+            android:textStyle="bold"
+            android:id="@+id/orderdetail_type"
+            android:textSize="25sp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_above="@+id/orderdetail_id"
+            android:textColor="#686868"
+            />
+
+
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_below="@+id/orderdetail_order"
+        android:layout_width="match_parent"
+        android:id="@+id/orderdetail_order_shadow"
+        android:layout_height="15dp"
+        android:src ="@drawable/shadow_bottom"
+
+        />
+
+
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:id="@+id/orderdetail_customer"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orderdetail_order_shadow"
+        android:background="#DE1623"
+        >
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call on delivery"
+            android:id="@+id/orderdetail_notes"
+            android:layout_marginRight="10dp"
+            android:textSize="25sp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/orderdetail_address"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:textColor="#FFF"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bəsti bağırova 2a, az1065, baku"
+            android:id="@+id/orderdetail_address"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="10dp"
+            android:textSize="25sp"
+            android:layout_below="@+id/orderdetail_phone"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:textColor="#FFF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+994552257732"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/orderdetail_name"
+            android:layout_marginBottom="2dp"
+            android:id="@+id/orderdetail_phone"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:textColor="#FFF"
+            />
+
+        d<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Azad"
+        android:layout_marginTop="5dp"
+        android:textSize="25sp"
+        android:layout_marginBottom="2dp"
+        android:textStyle="bold"
+        android:id="@+id/orderdetail_name"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:textColor="#FFF"
+        />
+
+
+
+    </RelativeLayout>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:id="@+id/orderdetail_customer_shadow"
+        android:layout_below="@+id/orderdetail_customer"
+        android:src ="@drawable/shadow_bottom"
+        />
+
+</RelativeLayout>

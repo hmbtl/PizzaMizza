@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/order_list_fragment"
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent"
+        android:layout_height="match_parent"
+        />
+
+
+    <TextView
+        android:id="@+id/no_orders"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="50dp"
+        android:textSize="60sp"
+        android:layout_centerInParent="true"
+        android:textColor="#686868"
+        android:textStyle="bold"
+        android:text="NO ORDERS TO SHOW RIGHT NOW"
+        />
+
+
+</RelativeLayout>

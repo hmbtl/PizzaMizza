@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/orders_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/sections_top"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_height="100dp"
+        android:background="#de1623"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+
+
+            <TextView
+                android:id="@+id/new_click"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="NEW ORDER"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/new_indicator"
+                android:layout_width="46dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/arrow_section" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/new_count"
+                android:textColor="#fff"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:paddingBottom="2dp"
+                android:textSize="17sp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/accepted_click"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+
+                android:padding="5dp"
+                android:text="ACCEPTED"
+                android:textColor="#ff898989"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/accepted_indicator"
+
+                android:layout_width="46dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/arrow_section"
+                android:visibility="gone" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/accepted_count"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:paddingBottom="2dp"
+                android:textSize="17sp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/making_click"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="MAKING"
+                android:textColor="#ff898989"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/making_indicator"
+                android:layout_width="46dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/arrow_section"
+                android:visibility="gone" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/making_count"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:paddingBottom="2dp"
+                android:textSize="17sp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/ready_click"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="READY"
+                android:textColor="#ff898989"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ready_indicator"
+                android:layout_width="46dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+
+                android:scaleType="fitXY"
+                android:src="@drawable/arrow_section"
+                android:visibility="gone" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:id="@+id/ready_count"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:paddingBottom="2dp"
+                android:textSize="17sp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/ontheway_click"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="ON THE WAY"
+                android:textColor="#ff898989"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ontheway_indicator"
+                android:layout_width="46dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+
+                android:scaleType="fitXY"
+                android:src="@drawable/arrow_section"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_centerHorizontal="true"
+
+                android:id="@+id/ontheway_count"
+                android:layout_alignParentBottom="true"
+                android:paddingBottom="2dp"
+                android:textSize="17sp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/finished_click"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="FINISHED"
+                android:textColor="#ff898989"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/finished_indicator"
+                android:layout_width="46dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+
+                android:scaleType="fitXY"
+                android:src="@drawable/arrow_section"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:id="@+id/finished_count"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:paddingBottom="2dp"
+                android:textSize="17sp"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_below="@+id/sections_top"
+        android:layout_above="@+id/sections_bottom"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/sections_bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_height="80dp"
+        android:background="#de1623"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/declined_rl"
+            >
+
+
+
+            <TextView
+                android:id="@+id/declined_click"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="DECLINED"
+                android:textColor="#ff898989"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/declined_indicator"
+                android:layout_width="46dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:visibility="gone"
+                android:scaleType="fitXY"
+                android:src="@drawable/arrow_section_bottom" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/declined_count"
+                android:textColor="#fff"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:paddingTop="2dp"
+                android:textSize="17sp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+android:layout_toRightOf="@+id/declined_rl"
+            android:id="@+id/all_rl"
+            >
+
+
+
+            <TextView
+                android:id="@+id/all_click"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="ALL"
+                android:textColor="#ff898989"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/all_indicator"
+                android:layout_width="46dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:visibility="gone"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/arrow_section_bottom" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/all_count"
+                android:textColor="#fff"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:paddingTop="2dp"
+                android:textSize="17sp"
+                />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/navdrawer"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:padding="20dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/nav_drawer"
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

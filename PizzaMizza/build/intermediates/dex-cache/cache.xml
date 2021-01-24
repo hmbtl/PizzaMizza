@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/anar/AndroidStudioProjects/PizzaMizza/pizzaMizza/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
+        <dex dex="/Users/anar/AndroidStudioProjects/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-6e70210638fec8723a742c1a58284ea1ed84e31d.jar" />
+    </item>
+    <item
+        jar="/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-ade67c31761fe78773e878316a55f1336fc92ab3.jar" />
+    </item>
+    <item
+        jar="/Users/anar/AndroidStudioProjects/PizzaMizza/pizzaMizza/build/intermediates/exploded-aar/PizzaMizza/library/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e033b78f1694aab03af9095b1a3f4341820ddd35">
+        <dex dex="/Users/anar/AndroidStudioProjects/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-a3ac69258e28efb06a170ba651a052c59f05729e.jar" />
+    </item>
+    <item
+        jar="/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-1743a2fbd0f8ed330ca43d3bb06255ed54cdfc43.jar" />
+    </item>
+    <item
+        jar="/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/exploded-aar/uk.co.chrisjenx/calligraphy/2.1.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e653e15e62e8a59ddd76cc7f827bf8bce38ae7bb">
+        <dex dex="/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-68d6c3290a7759ef5e83ccd45d227a3164b30418.jar" />
+    </item>
+    <item
+        jar="/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/exploded-aar/PizzaMizza/library/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="38b86599991704515115fcf7cad7bc89561ddaba">
+        <dex dex="/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-2e97638c85a90a89f05b7a3b64a2b9f8e1284e54.jar" />
+    </item>
+    <item
+        jar="/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-5312244e7f9cf889e1055a0606098f9409cc65c4.jar" />
+    </item>
+    <item
+        jar="/Users/anar/AndroidStudioProjects/PizzaMizza/pizzaMizza/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e0b0c35d02308b270015a74cada4887e2e49b889">
+        <dex dex="/Users/anar/AndroidStudioProjects/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-8e9e24fc66e845f183002a13f65d8faee93c548a.jar" />
+    </item>
+    <item
+        jar="/Users/anar/Development/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/anar/AndroidStudioProjects/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-2df326ed0bd978da7005012f011bea5c1fa4ffab.jar" />
+    </item>
+    <item
+        jar="/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-41eb54202adeb7a895d6f2495aabbcdc91cda253.jar" />
+    </item>
+    <item
+        jar="/Users/anar/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/anar/AndroidStudioProjects/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/picasso-2.5.2-0ab08c649e906f6a067ad7ff00db0b91b1ef11ff.jar" />
+    </item>
+    <item
+        jar="/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-be386a3827b6108337527c2374f8fd62aeeccbf9.jar" />
+    </item>
+    <item
+        jar="/Users/anar/AndroidStudioProjects/PizzaMizza/pizzaMizza/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.7.3.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f9566ad7640cbad2ee4924baea8461ab5bc401cc">
+        <dex dex="/Users/anar/AndroidStudioProjects/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-2ebefc772881dc891c80651e473ef61f06c44158.jar" />
+    </item>
+    <item
+        jar="/Users/anar/AndroidStudioProjects/PizzaMizza/pizzaMizza/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fe3e0c6de7cceed888b277487238b6af9a1cc299">
+        <dex dex="/Users/anar/AndroidStudioProjects/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-35e8f8648bd0c8f69af0cd8a0574984cef42af52.jar" />
+    </item>
+    <item
+        jar="/Users/anar/AndroidStudioProjects/PizzaMizza/pizzaMizza/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/anar/AndroidStudioProjects/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-2df283f989c9990c047466f52f32a3dd57dccf00.jar" />
+    </item>
+    <item
+        jar="/Users/anar/AndroidStudioProjects/PizzaMizza/pizzaMizza/build/intermediates/exploded-aar/se.emilsjolander/stickylistheaders/2.6.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd93a96342fce030e55cafc5917d768da0135164">
+        <dex dex="/Users/anar/AndroidStudioProjects/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-e4b0bee926316e9f5235c51efcc856d9fcaa5178.jar" />
+    </item>
+    <item
+        jar="/Users/anar/AndroidStudioProjects/PizzaMizza/pizzaMizza/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/anar/AndroidStudioProjects/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-03a29e5a02b906e35ce8d244d0723b95dd74e5b1.jar" />
+    </item>
+    <item
+        jar="/Users/anar/Development/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-d52430a0dd08c0ecad81f5af5e14507674bb8c0b.jar" />
+    </item>
+    <item
+        jar="/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.7.3.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f9566ad7640cbad2ee4924baea8461ab5bc401cc">
+        <dex dex="/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-45e6d629e62c189d2ea13df4b0e9c417ab3eb58b.jar" />
+    </item>
+    <item
+        jar="/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e0b0c35d02308b270015a74cada4887e2e49b889">
+        <dex dex="/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-e18d48becf0d53c8f3fddae293cfa870fc1c4d19.jar" />
+    </item>
+    <item
+        jar="/Users/anar/AndroidStudioProjects/PizzaMizza/pizzaMizza/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/anar/AndroidStudioProjects/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-6a90cfce5e42ec2e251b366100661f2333245f13.jar" />
+    </item>
+    <item
+        jar="/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/exploded-aar/se.emilsjolander/stickylistheaders/2.6.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd93a96342fce030e55cafc5917d768da0135164">
+        <dex dex="/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-c602155964bdaeebc946dbab0996347357da252d.jar" />
+    </item>
+
+</items>

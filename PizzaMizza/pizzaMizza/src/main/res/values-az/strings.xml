@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pizza Mizza</string>
+    <string name="action_settings">Parametrlər</string>
+    <string name="hello_world">Salam dünya!</string>
+    <string name="pick_size">ÖLÇÜNÜ SEÇİN</string>
+    <string name="carry_out">GƏLİB GÖTÜRMƏK</string>
+    <string name="delivery">ÇATDIRILMA</string>
+    <string name="item_remove_message">Siz həqiqətən bu bəndi silmək istəyirsiniz?</string>
+    <string name="app_exit_message">Siz həqiqətən bu app-dən çıxmaq istəyirsiniz?</string>
+    <string name="yes">bəli</string>
+    <string name="no">xeyir</string>
+    <string name="food_and_beverage">Food &amp; Beverage:</string>
+    <string name="tax_and_deposit">Tax &amp; Bottle Deposit:</string>
+    <string name="total">Cəmi</string>
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+    <string name="name">Ad</string>
+    <string name="email">E-MAIL</string>
+    <string name="mobile_phone">MOBİL TELEFON</string>
+    <string name="address_line1">ÜNVAN 1</string>
+    <string name="address_line2">ÜNVAN 2</string>
+    <string name="city">Şəhər</string>
+    <string name="postcode">POÇT KODU</string>
+    <string name="additional_notes">Əlavə qeydlər</string>
+    <string name="place_order">SİFARİŞ EDİN</string>
+    <string name="order_successful_text">SİFARİŞİNİZ QEYD EDİLİR \n   UĞURLA</string>
+    <string name="congratulations">TƏBRİKLƏR</string>
+    <string name="select_topping">QARNİR SEÇİN</string>
+    <string name="select_pizza_size">Pizzanın ölçüsün seçin</string>
+    <string name="your_orders">sifarişləriniz</string>
+    <string name="menu">MENYU</string>
+    <string name="coupons">KUPONLAR</string>
+    <string name="card_empty_message">SƏBƏTİNİZ boşdur. Başlamaq üçün MENYU düyməsini seçin.</string>
+    <string name="add_topping">Qarnir əlavə edin</string>
+    <string name="sign_in">daxil olun</string>
+    <string name="password">ŞİFRƏ</string>
+    <string name="remember_credentials">Məlumatlarımı yadda saxlayın.</string>
+    <string name="log_in">daxil olun</string>
+    <string name="profile">profil</string>
+    <string name="categories">kateqoriyalar</string>
+    <string name="not_selected">SEÇİLMƏYİB</string>
+    <string name="selected">SEÇİLİB</string>
+    <string name="build">HAZIRLAMAQ</string>
+    <string name="create_your_own">ÖZÜNÜZ YARADIN</string>
+    <string name="pizzas">PİZZALAR</string>
+    <string name="history">TARİXÇƏ</string>
+    <string name="progress">PROQRESS</string>
+    <string name="no_account_message">HESABINIZ YOXDUR?</string>
+    <string name="registration">QEYDIYYAT</string>
+    <string name="password_retype">ŞİFRƏNİ YENİDƏN DAXİL EDİN</string>
+    <string name="subscribe_deals">SUBSCRIBE TO DAILY DEALS.</string>
+    <string name="sign_up">qeydiyyatdan keçmək</string>
+    <string name="search_food">AXTAR</string>
+    <string name="save">YADDA SAXLA</string>
+    <string name="add_to_basket">SƏBƏTƏ ATIN</string>
+
+    <string-array name="food_sizes">
+        <item>@string/medium</item>
+        <item>@string/large</item>
+    </string-array>
+
+    <string name="welcome">XOŞ GƏLMİSİNİZ</string>
+    <string name="loading_menu">Menyu yüklənir …</string>
+    <string name="search">axtarmaq</string>
+    <string name="settings">parametrlər</string>
+    <string name="about">haqqımızda</string>
+    <string name="my_orders">mənim sifarişlərim</string>
+    <string name="logout">çıxış</string>
+    <string name="done">hazırdır</string>
+    <string name="edit">redaktə elə</string>
+    <string name="checkout">SİFARİŞ ET</string>
+    <string name="add">əlavə etmək</string>
+    <string name="pizza">pizza</string>
+    <string name="dessert">desert</string>
+    <string name="pasta">makaron</string>
+    <string name="sauce">sous</string>
+    <string name="drink">içki</string>
+    <string name="pannini">panini</string>
+    <string name="pannini_sauce">pannini sousu</string>
+    <string name="side_orders">side orders</string>
+    <string name="salad">salat</string>
+    <string name="edit_toppings">qarnirləri redaktə etmək</string>
+    <string name="medium">orta</string>
+    <string name="large">böyük</string>
+    <string name="small">kiçik</string>
+    <string name="extra">ekstra</string>
+    <string name="none">heç nə</string>
+    <string name="normal">normal</string>
+    <string name="exit">Çıxış</string>
+    <string name="remove">silmək</string>
+    <string name="whole">bütöv</string>
+    <string name="left">sol</string>
+    <string name="right">sağ</string>
+    <string name="azn">AZN</string>
+
+    <string name="mobile_example">e.g +99455XXXXXXX</string>
+    <string name="apt_example">e.g 6</string>
+    <string name="street_example">e.g Samir Jafarov</string>
+    <string name="name_example">e.g Azad</string>
+    <string name="postcode_example">e.g AZ1131</string>
+
+    <string name="minOrder_toast">Seçilmiş ərazidə minimum sifariş məbləği</string>
+    <string name="minOrder_toast2">təşkil edir.</string>
+
+    <string name="unable_to_connect_toast">Serverə qoşulmaq olmur. İnternet bağlantınızı yoxlayın!</string>
+   <string name="about_text">PizzaMizza şirkəti 2014-cü ildən başlayaraq Avropanın ən yaxşı Pizza təcrübəsini Bakıda təqdim etməyə çalışır. Yemək ehtiyaclarını daha çox ləzzət və keyfiyyətlə assosiasiya etməyə çalışan aşbazlarımız illərlə bu təcrübəni Avropada həyata keçirmiş və bir çox uğurlar əldə etmişlər. Biz müştərilərimizə ən yaxşı pizza təcrübəsini vəd edirik. Bu həm məhsul həm məkan həm servis həm də qiyməti əhatə edir. Düşünürük ki, bu təcrübənin heç vaxt bitməyəcəyini sizə təmin edə biləcəyik.
+Ən yaxşı pizza təcrübəsi PizzaMizzada  </string>
+
+    <string name="family_name_example">e.g Humbatman</string>
+    <string name="notes_example">e.g Çatdırılmaq üçün zəng edin və yaxud mən 3 saatdan sonra mağazadan sifarişi götürəcəm</string>
+    <string name="close">bağla</string>
+    <string name="fill_name_message">Dəvam etmək üçün zəhmət olmasa adınızı daxil edin</string>
+    <string name="fill_familyname_message">Dəvam etmək üçün zəhmət olmasa familiyanızı daxil edin</string>
+    <string name="fill_phone_message">Dəvam etmək üçün zəhmət olmasa mobil nömrənizi daxil edin</string>
+    <string name="ok">OK</string>
+    <string name="order_success_text">Sifarişiniz uğurla qeydə alındı. Təsdiq üçün sizinlə əlaqə saxlayacayıq. Sifarişinizin İD nömrəsi: </string>
+
+    <string name="no_orders">Hal-hazırda heç bir sifarişiniz yoxdur</string>
+    <string name="orders_proccesing_text">Sifarişləriniz qeyd edilməkdədir…</string>
+    <string name="getstarted">Sifariş etməyə başla</string>
+    <string name="fill_postcode_message">Davam etmək üçün zəhmət olmasa poçt kodunuzu daxil edin</string>
+    <string name="fill_apt_name_message">Davam etmək üçün zəhmət olmasa mənzil nömrənizi daxil edin</string>
+    <string name="fill_street_name_message">Davam etmək üçün zəhmət olmasa küçənizi daxil edin</string>
+    <string name="select_zone_message">Davam etmək üçün zəhmət olmasa ərazivizi seçin</string>
+    <string name="select_zone">Ərazi seçin</string>
+
+    <string name="connection"> Əlaqə </string>
+    <string name="re_try"> Yenidən cəhd etmək</string>
+
+    <string name="zone">Ərazi</string>
+    <string name="minorder">Minimum Sifariş</string>
+
+    <string name="apartment">Mənzil</string>
+    <string name="street">Küçə</string>
+    <string name="address_details">ünvan bilgiləri</string>
+    <string name="personal_details">müştəri bilgiləri</string>
+    <string name="delete">Sil</string>
+    <string name="order">sifariş</string>
+
+    <string name="price">Qiymət</string>
+    <string name="phone">Nömrə</string>
+    <string name="surname">Soyad</string>
+
+    <string name="postal">Poçta</string>
+    <string name="date">tarix</string>
+    <string name="order_details">sifariş bilgiləri</string>
+
+    <string name="wrong_number_format">Nömrənin formatı səhvdir</string>
+    <string name="wrong_number_format_msg">Davam etmək üçün, düzgün telefon nömrəsini əlavə edin.</string>
+
+    <string name="relax_your_order_is_placed">Sizin sifarişiniz qeydə alındı</string>
+    <string name="customer">müştəri</string>
+    <string name="yes_i_confirm">Bəli, təsdiqləyirəm</string>
+    <string name="phone_confirmation">Siz əminsiniz ki, yuxarıda qeyd olunmuş nömrə düzgündür və sizə məxsusdur? Sifarişləri qeydə almaq üçün sizinlə əlaqə saxlanılacaq.</string>
+    <string name="quantity">MIQDARI -</string>
+    <string name="language">Dili seçin</string>
+    <string name="please_wait">Zəhmət olmasa, gözləyin</string>
+
+
+    <string name="status_new">Yeni</string>
+    <string name="status_accepted">Qəbul olundu</string>
+    <string name="status_making">Hazırlanır</string>
+    <string name="status_ready">Hazırdır</string>
+    <string name="status_send_to_deliver">Çatdırılmağa göndərildi</string>
+    <string name="status_delivered">Çatdırıldı</string>
+    <string name="status_declined">Qəbul Olunmadı</string>
+    <string name="status_taken">Götürüldü</string>
+    <string name="order_status_updated">Sifarişin statusu yeniləndi</string>
+
+
+    <string name="status_accepted_text">Sifariş #xx qəbul olundu. Başqa yenilikləri barəsində bildiriş alacaqsınız.</string>
+    <string name="status_making_text">Sifariş #xx hazırlanır.</string>
+    <string name="status_ready_text">Sifariş #xx  hazırdır.</string>
+    <string name="status_on_the_way_text">Sifariş #xx yoldadı və tezliklə sizin ünvanınıza çatdırılacaq.</string>
+    <string name="status_delivered_text">Sifariş #xx sizə çatdırıldı.</string>
+    <string name="status_declined_text">Sifariş #xx qəbul olunmadı. Xahiş edirik əlavə məlumat almaq üçün bizimlə əlaqə saxlıyasınız. Əlaqə nömrəsi *1415.</string>
+    <string name="status_taken_text">Sifariş #xx götürüldü.</string>
+
+    <string name="header_small">Balaca sss</string>
+    <string name="header_medium">Orta mmm</string>
+    <string name="header_large">Böyük lll</string>
+
+    <string name="pizza_unit_small">20sm</string>
+    <string name="pizza_unit_medium">26sm</string>
+    <string name="pizza_unit_large">32sm</string>
+
+    <string name="panini_unit_medium">6 dənəli</string>
+    <string name="panini_unit_large">9 dənəli</string>
+
+    <string name="pasta_unit_medium">400 qr.</string>
+
+    <string name="salad_unit_medium">160 qr.</string>
+    <string name="salad_unit_large">300 qr.</string>
+
+    <string name="wrap">dürüm</string>
+    <string name="soup">suplar</string>
+
+    <string name="store_close">Pizza Mizza indi bağlıdır. Bizim iş saatımız saat 11:00dan  22:00a qədərdir. Nəzərinizdə saxlayın ki, iş saatından kənar vaxtlarda sifariş etmək mümkün deyil.</string>
+    <string name="store_open">Pizza Mizza indi açıqdır. Bizim iş saatımız saat 22:00da bitir.</string>
+    <string name="we_are_closed">İş vaxtı</string>
+    <string name="we_are_open">İş vaxtı</string>
+
+    <string name="salad_sauce">salad sousu</string>
+    <string name="double_cheese_with_price">IKIQAT PENDIR - xx AZN</string>
+    <string name="double_cheese">ikiqat pendir</string>
+
+</resources>
+

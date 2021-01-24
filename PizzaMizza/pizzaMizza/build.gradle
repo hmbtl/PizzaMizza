@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "21.1.2"
+    defaultConfig {
+        applicationId "az.nms.pizzamizza"
+        minSdkVersion 16
+        targetSdkVersion 22
+        versionCode 15
+        versionName '1.0.3'
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile project(':library')
+    compile 'com.afollestad:material-dialogs:0.7.3.1'
+    compile 'com.android.support:appcompat-v7:22.2.0'
+    compile 'com.android.support:support-v4:22.2.0'
+    compile 'com.google.android.gms:play-services-maps:7.5.0'
+    compile 'se.emilsjolander:stickylistheaders:2.6.0'
+    compile 'uk.co.chrisjenx:calligraphy:2.1.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+}

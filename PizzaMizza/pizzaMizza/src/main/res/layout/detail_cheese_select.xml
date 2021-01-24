@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detail_cheese_selection"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/cheese_double_button_selector"
+    android:clickable="true"
+    android:visibility="visible">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center|left"
+        android:id="@+id/detail_cheese_text"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:text="@string/double_cheese_with_price"
+        android:textColor="#de1623"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+
+    <ImageView
+        android:id="@+id/detail_cheese_success"
+        android:layout_width="35dp"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/success" />
+
+
+</RelativeLayout>

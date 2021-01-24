@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <!-- From: file:/Users/anar/Android/PizzaMizza/pizzaMizza/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string-array name="food_sizes">
+        <item>@string/medium</item>
+        <item>@string/large</item>
+    </string-array>
+    <!-- From: file:/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Перейти на главный экран"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Перейти вверх"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Другие параметры"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Показать все"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Выбрать приложение"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Удалить запрос"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Поисковый запрос"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Поиск"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Отправить запрос"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Голосовой поиск"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Открыть доступ"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Открыть доступ пользователю %s"</string>
+    <!-- From: file:/Users/anar/Android/PizzaMizza/pizzaMizza/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="about">о нас</string>
+    <string name="about_text">PizzaMizza начиная с 2014 года пытается представить лучший европейский опыт пиццы в Баку. Наши повара, пытающиеся ассоцировать потребности еды больше со вкусом и качеством, много лет практиковались в Европе и имели большой успех. Мы обещаем нашим клиентам попробовать лучшую пиццу. Это охватывает как продукт, так и пространство, сервис и цены. Считаем, что мы сможем обеспечить Вас тем, что этот опыт не будет закончен никогда. Лучший опыт пиццы в PizzaMizza-е.</string>
+    <string name="action_settings">Настройки</string>
+    <string name="add">добавить</string>
+    <string name="add_to_basket">ДОБАВИТЬ</string>
+    <string name="add_topping">Добавить Начинку</string>
+    <string name="additional_notes">Дополнительные примечания</string>
+    <string name="address_details">детали адреса</string>
+    <string name="address_line1">АДРЕСНАЯ СТРОКА 1</string>
+    <string name="address_line2"> АДРЕСНАЯ СТРОКА 2</string>
+    <string name="apartment">Здание</string>
+    <string name="app_exit_message"> Вы действительно хотите закрыть это приложение?</string>
+    <string name="app_name">Pizza Mizza</string>
+    <string name="apt_example">e.g 6</string>
+    <string name="azn">AZN</string>
+    <string name="build">СОЗДАТЬ</string>
+    <string name="card_empty_message">Ваша КАРТА пуста. Для начала нажмите кнопку МЕНЮ, пожалуйста.</string>
+    <string name="carry_out">ВЫНОС</string>
+    <string name="categories">категории</string>
+    <string name="checkout">ЗАКАЗАТЬ</string>
+    <string name="city">ГОРОД</string>
+    <string name="close">закрыть</string>
+    <!-- From: file:/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-ru/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="6428604800157361567" name="common_android_wear_notification_needs_update_text">"Чтобы продолжить работу с приложением \"<ns1:g id="APP_NAME">%1$s</ns1:g>\", обновите Android Wear"</string>
+    <string msgid="2453027084525739603" name="common_android_wear_update_text">"Чтобы запустить приложение \"<ns1:g id="APP_NAME">%1$s</ns1:g>\", обновите Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Обновить Android Wear"</string>
+    <string msgid="6534628256897874213" name="common_google_play_services_api_unavailable_text">"Сервисы Google Play, необходимые для работы с приложением \"<ns1:g id="APP_NAME">%1$s</ns1:g>\", недоступны. Свяжитесь с его разработчиком."</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Включить"</string>
+    <string msgid="4896236883690196080" name="common_google_play_services_enable_text">"Чтобы запустить приложение \"<ns1:g id="APP_NAME">%1$s</ns1:g>\", включите сервисы Google Play."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Включите Сервисы Google Play"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Источник запроса: <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Установить"</string>
+    <string msgid="8836325110837822534" name="common_google_play_services_install_text_phone">"Для работы с приложением \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" требуются сервисы Google Play, не установленные на вашем телефоне."</string>
+    <string msgid="542176290824754127" name="common_google_play_services_install_text_tablet">"Для работы с приложением \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" требуются сервисы Google Play, не установленные на вашем планшете."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Установите Сервисы Google Play"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Этого аккаунта нет на устройстве. Выберите другой."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Недействительный аккаунт"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Для работы приложения требуется включить сервисы Google Play"</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Для работы с Google Play требуется подключение к сети."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Ошибка сети"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Для работы приложения требуется обновить сервисы Google Play"</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Ошибка сервисов Google Play"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"При входе в указанный аккаунт произошла ошибка. Выберите другой аккаунт."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Ошибка входа"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Неизвестная ошибка с Сервисами Google Play."</string>
+    <string msgid="7682982632307307938" name="common_google_play_services_unsupported_text">"Сервисы Google Play, необходимые для работы с приложением \"<ns1:g id="APP_NAME">%1$s</ns1:g>\", не поддерживаются на вашем устройстве. Обратитесь к его производителю."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Сервисы Google Play"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Обновить"</string>
+    <string msgid="5709479369299147668" name="common_google_play_services_update_text">"Чтобы запустить приложение \"<ns1:g id="APP_NAME">%1$s</ns1:g>\", обновите сервисы Google Play."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Обновите Сервисы Google Play"</string>
+    <string msgid="2201289642219771610" name="common_google_play_services_updating_text">"Сервисы Google Play, необходимые для работы с приложением \"<ns1:g id="APP_NAME">%1$s</ns1:g>\", в настоящий момент обновляются."</string>
+    <string msgid="815008177440683245" name="common_google_play_services_updating_title">"Обновление сервисов Google Play…"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Открыть на телефоне"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Войти"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Войти в аккаунт Google"</string>
+    <!-- From: file:/Users/anar/Android/PizzaMizza/pizzaMizza/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="congratulations">ПОЗДРАВЛЯЕМ</string>
+    <string name="connection">Подключение</string>
+    <string name="coupons">КУПОНЫ</string>
+    <string name="create_your_own">СОЗДАТЬ СВОЙ</string>
+    <string name="customer">покупатель</string>
+    <string name="date">дата</string>
+    <string name="delete">Удалить</string>
+    <string name="delivery">ДОСТАВКА</string>
+    <string name="dessert">десерт</string>
+    <string name="done">сделано</string>
+    <string name="double_cheese">двойной сыр</string>
+    <string name="double_cheese_with_price">ДВОЙНОЙ СЫР - xx AZN</string>
+    <string name="drink">напиток</string>
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+    <string name="edit">изменить</string>
+    <string name="edit_toppings">изменить начинки</string>
+    <string name="email">Е-МЕЙЛ</string>
+    <string name="exit">выход</string>
+    <string name="extra">экстра</string>
+    <string name="family_name_example">Например, Тёмный рыцарь</string>
+    <string name="fill_apt_name_message">Пожалуйста, введите номер квартиры, чтобы продолжить.</string>
+    <string name="fill_familyname_message">Чтобы продолжить, введите свою фамилию</string>
+    <string name="fill_name_message">Чтобы продолжить, введите своё имя</string>
+    <string name="fill_phone_message">Чтобы продолжить, введите номер своего мобильного телефона</string>
+    <string name="fill_postcode_message">Пожалуйста, введите свой почтовый индекс, чтобы продолжить.</string>
+    <string name="fill_street_name_message">Пожалуйста, введите свой адрес улицы, чтобы продолжить.</string>
+    <string name="food_and_beverage">Food &amp; Beverage:</string>
+    <string name="getstarted">начался</string>
+    <string name="header_large">большой lll</string>
+    <string name="header_medium">средний mmm</string>
+    <string name="header_small">маленький sss</string>
+    <string name="hello_world">Привет мир!</string>
+    <string name="history">ИСТОРИЯ</string>
+    <string name="item_remove_message"> Вы действительно хотите удалить это?</string>
+    <string name="language">Язык</string>
+    <string name="large">большой</string>
+    <string name="left">левый</string>
+    <string name="loading_menu">Меню загружается…</string>
+    <string name="log_in">войти</string>
+    <string name="logout">выйти</string>
+    <string name="medium">средний</string>
+    <string name="menu">МЕНЮ</string>
+    <string name="minOrder_toast">Для выбранного региона ваш итоговый заказ должен быть, по крайней мере </string>
+    <string name="minorder">Минимальный заказ</string>
+    <string name="mobile_example">e.g +994552257732</string>
+    <string name="mobile_phone">МОБИЛЬНЫЙ ТЕЛЕФОН</string>
+    <string name="my_orders">мои заказы</string>
+    <string name="name">Имя</string>
+    <string name="name_example">e.g Azad</string>
+    <string name="no">нет</string>
+    <string name="no_account_message">У ВАС НЕТ АККАУНТА?</string>
+    <string name="no_orders">У вас нет никаких заказов, чтобы показать прямо сейчас</string>
+    <string name="none">никакой</string>
+    <string name="normal">нормально</string>
+    <string name="not_selected">НЕ ВЫБРАН</string>
+    <string name="notes_example">Например, позвоните для доставки или я приму заказы через 3 часа из магазина</string>
+    <string name="ok">OK</string>
+    <string name="order">заказ</string>
+    <string name="order_details">детали заказа</string>
+    <string name="order_status_updated">Статус заказа обновлён</string>
+    <string name="order_success_text">Ваш заказ успешно оформлен. İD вашего заказа: </string>
+    <string name="order_successful_text">ВАШ ЗАКАЗ ОБРАБОТАН \n   УСПЕШНО</string>
+    <string name="orders_proccesing_text">Ваши заказы обрабатываются....</string>
+    <string name="panini_unit_large">9 штук</string>
+    <string name="panini_unit_medium">6 штук</string>
+    <string name="pannini">панини</string>
+    <string name="pannini_sauce">панини соус</string>
+    <string name="password">ПАРОЛЬ</string>
+    <string name="password_retype"> ВВЕДИТЕ ПАРОЛЬ ЕЩЕ РАЗ </string>
+    <string name="pasta">макароны</string>
+    <string name="pasta_unit_medium">400 гр.</string>
+    <string name="personal_details">личные данные</string>
+    <string name="phone">Телефон</string>
+    <string name="phone_confirmation">Вы уверены, что указанный наверху номер действительный и Ваш? Пожалуйста, обратите внимание на то, что для подтверждения заказа, мы с Вами свяжемся.</string>
+    <string name="pick_size">Выберите размер</string>
+    <string name="pizza">пицца</string>
+    <string name="pizza_unit_large">32см</string>
+    <string name="pizza_unit_medium">26см</string>
+    <string name="pizza_unit_small">20см</string>
+    <string name="pizzas">ПИЦЦЫ</string>
+    <string name="place_order">СДЕЛАТЬ ЗАКАЗ</string>
+    <string name="please_wait">Пожалуйста, подождите</string>
+    <string name="postal">Почта</string>
+    <string name="postcode">ПОЧТОВЫЙ ИНДЕКС</string>
+    <string name="postcode_example">e.g AZ1131</string>
+    <string name="price">Цена</string>
+    <string name="profile">профиль</string>
+    <string name="progress">ПРОГРЕСС</string>
+    <string name="quantity">КОЛИЧЕСТВО -</string>
+    <string name="re_try">Снова попробовать</string>
+    <string name="registration">РЕГИСТРАЦИЯ</string>
+    <string name="relax_your_order_is_placed">Расслабьтесь, Ваш заказ принят</string>
+    <string name="remember_credentials">ЗАПОМНИТЬ МОИ ДАННЫЕ.</string>
+    <string name="remove">удалить</string>
+    <string name="right">правый</string>
+    <string name="salad">салат</string>
+    <string name="salad_sauce">салат соус</string>
+    <string name="salad_unit_large">300 гр.</string>
+    <string name="salad_unit_medium">160 гр.</string>
+    <string name="sauce">соус</string>
+    <string name="save">Сохранить</string>
+    <string name="search">поиск</string>
+    <string name="search_food">ПОИСК</string>
+    <string name="select_pizza_size">Выберите размер Пиццы</string>
+    <string name="select_topping">ВЫБРАТЬ НАЧИНКИ</string>
+    <string name="select_zone">Выберите свою зону</string>
+    <string name="select_zone_message">Пожалуйста, выберите свою зону, чтобы продолжить.</string>
+    <string name="selected">ВЫБРАН</string>
+    <string name="settings">настройки</string>
+    <string name="side_orders">гарниры</string>
+    <string name="sign_in">Войти</string>
+    <string name="sign_up">зарегистрироваться</string>
+    <string name="small">маленький</string>
+    <string name="soup">супы</string>
+    <string name="status_accepted">ПРИНЯТ</string>
+    <string name="status_accepted_text">Заказ #xx принят. Вы будете уведомлены о дальнейших обновлениях.</string>
+    <string name="status_declined">ОТКЛОНЁН</string>
+    <string name="status_declined_text">Заказ #xx отклонён. Пожалуйста, свяжитесь с нами, чтобы получить более подробную информацию. Контактный номер * 1415.</string>
+    <string name="status_delivered">ДОСТАВЛЕН</string>
+    <string name="status_delivered_text">Заказ #xx доставлен.</string>
+    <string name="status_making">ГОТОВИТСЯ</string>
+    <string name="status_making_text">Заказ #xx готовится.</string>
+    <string name="status_new">НОВЫЙ</string>
+    <string name="status_on_the_way_text">Заказ #xx в пути и будет доставлен в ближайшее время.</string>
+    <string name="status_ready">ГОТОВ</string>
+    <string name="status_ready_text">Заказ #xx готов.</string>
+    <string name="status_send_to_deliver">В ПУТИ</string>
+    <string name="status_taken">ЗАБРАН</string>
+    <string name="status_taken_text">Заказ #xx забран.</string>
+    <string name="store_close">Pizza Mizza сейчас закрыта. Наше рабочее время с 11:00 до 22:00. Просим вас учесть, что в нерабочее время заказы не принимаются.</string>
+    <string name="store_open">Pizza Mizza сейчас открыта. Наше рабочее время заканчивается в 22:00.</string>
+    <string name="street">Улица</string>
+    <string name="street_example">e.g Samir Jafarov</string>
+    <string name="subscribe_deals">ПОДПИСАТЬСЯ НА ЕЖЕДНЕВНЫЕ ПРЕДЛОЖЕНИЯ.</string>
+    <string name="surname">Фамилия</string>
+    <string name="tax_and_deposit">Tax &amp; Bottle Deposit:</string>
+    <string name="total">итого</string>
+    <string name="unable_to_connect_toast">Не удаётся подключиться к серверу. Пожалуйста, проверьте подключение к интернету!</string>
+    <string name="we_are_closed">Рабочее время</string>
+    <string name="we_are_open">Рабочее время</string>
+    <string name="welcome">ДОБРО ПОЖАЛОВАТЬ</string>
+    <string name="whole">целый</string>
+    <string name="wrap">дурумы</string>
+    <string name="wrong_number_format">Неправильный формат номера</string>
+    <string name="wrong_number_format_msg">Пожалуйста, введите действительный номер телефона, чтобы продолжить.</string>
+    <string name="yes">да</string>
+    <string name="yes_i_confirm">Да, я подтверждаю</string>
+    <string name="your_orders">ваши заказы</string>
+    <string name="zone">Зона</string>
+</resources>

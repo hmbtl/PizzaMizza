@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:src="@drawable/shadow_bottom" />
+
+
+    <RelativeLayout
+        android:id="@+id/step1_rl"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:clickable="true">
+
+
+        <TextView
+            android:id="@+id/step1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="#fff"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            android:text="Step 1."
+            android:textColor="#de1623"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/step1_indicator"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:padding="10dp"
+            android:src="@drawable/down_arrow" />
+
+
+        <ImageView
+            android:id="@+id/step1_success"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/success" />
+
+        <TextView
+            android:id="@+id/step1_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/step1"
+            android:background="@drawable/order_state_button"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="Order is MAKING."
+            android:textColor="#fff"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:src="@drawable/shadow_bottom" />
+
+    <RelativeLayout
+        android:id="@+id/step2_rl"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <TextView
+            android:id="@+id/step2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="#fff"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            android:text="Step 2."
+            android:textColor="#686868"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/step2_indicator"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:src="@drawable/down_arrow" />
+
+
+        <ImageView
+            android:id="@+id/step2_success"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/success" />
+
+        <TextView
+            android:id="@+id/step2_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/step2"
+            android:background="@drawable/order_state_button"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="Order is READY."
+            android:textColor="#fff"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:src="@drawable/shadow_bottom" />
+
+    <RelativeLayout
+        android:id="@+id/step3_rl"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <TextView
+            android:id="@+id/step3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="#fff"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            android:text="Step 3."
+            android:textColor="#686868"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/step3_indicator"
+            android:layout_width="160dp"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:padding="10dp"
+            android:src="@drawable/down_arrow" />
+
+        <ImageView
+            android:id="@+id/step3_success"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/success" />
+
+        <TextView
+            android:id="@+id/step3_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/step3"
+            android:background="@drawable/order_state_button"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="Order is SEND TO DELIVERY."
+            android:textColor="#fff"
+            android:textSize="43sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/step3_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:src="@drawable/shadow_bottom" />
+
+    <RelativeLayout
+        android:id="@+id/step4_rl"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <TextView
+            android:id="@+id/step4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="#fff"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            android:text="Step 4."
+            android:textColor="#686868"
+            android:textSize="30sp" />
+
+
+        <ImageView
+            android:id="@+id/step4_success"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/success" />
+
+        <TextView
+            android:id="@+id/step4_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/step4"
+            android:background="@drawable/order_state_button"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="Order is DELIVERED."
+            android:textColor="#fff"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ImageView
+
+        android:id="@+id/step4_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:src="@drawable/shadow_bottom" />
+
+
+    <RelativeLayout
+        android:id="@+id/step3_co_rl"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <TextView
+            android:id="@+id/step3_co"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="#fff"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            android:text="Step 3."
+            android:textColor="#686868"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/step3_co_indicator"
+            android:layout_width="160dp"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:padding="10dp"
+            android:src="@drawable/down_arrow" />
+
+        <ImageView
+            android:id="@+id/step3_co_success"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/success" />
+
+        <TextView
+            android:id="@+id/step3_co_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/step3_co"
+            android:background="@drawable/order_state_button"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="Order is TAKEN."
+            android:textColor="#fff"
+            android:textSize="43sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ImageView
+
+        android:id="@+id/step3co_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:src="@drawable/shadow_bottom" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="Send notification"
+            android:textColor="#de1623"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/orderdetail_text_to_send"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            android:textColor="#686868"
+            android:background="#ffdedede"
+            android:gravity="left|center"
+            android:padding="10dp"
+            android:minLines="3"
+            android:maxLines="5"
+            android:hint="Please, enter your message to send to user."
+             />
+
+        <TextView
+            android:id="@+id/orderdetail_text_send_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="10dp"
+            android:background="#de1623"
+            android:clickable="true"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:text="Send"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:src="@drawable/shadow_bottom" />
+
+
+</LinearLayout>

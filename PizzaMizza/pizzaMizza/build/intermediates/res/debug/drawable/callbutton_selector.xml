@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true" android:drawable="@drawable/phone2_clicked" />
+    <item android:drawable="@drawable/phone2" />
+</selector><!-- From: file:/Users/anar/Android/PizzaMizza/pizzaMizza/src/main/res/drawable/callbutton_selector.xml -->

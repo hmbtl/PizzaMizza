@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:clickable="false"
+    >
+
+    <LinearLayout
+        android:id="@+id/order_cardview"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <RelativeLayout
+            android:id="@+id/order_rl"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:clickable="true"
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="14 MART 2015 23:12"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="#686868"
+                android:layout_below="@+id/order_type"
+                android:layout_toLeftOf="@+id/order_indicator"
+                android:id="@+id/order_date"
+                android:paddingRight="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_toLeftOf="@+id/order_indicator"
+                android:text="Carry Out"
+                android:layout_below="@+id/order_id"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:id="@+id/order_type"
+                android:paddingRight="5dp"
+                android:textColor="#686868"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:textSize="20sp"
+                android:textColor="#de1623"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:paddingRight="5dp"
+                android:text="Order #15"
+                android:textStyle="bold"
+                android:id="@+id/order_id"
+                android:layout_toLeftOf="@+id/order_indicator"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:textColor="#686868"
+                android:paddingLeft="10dp"
+                android:layout_toRightOf="@+id/order_name_indicator"
+                android:id="@+id/order_address"
+                android:text="Ilgar Musayev 42A, Yeni Guneshli"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:id="@+id/order_address_indicator"
+                android:layout_height="30dp"
+                android:layout_above="@+id/order_phone_indicator"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/profile"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:layout_above="@+id/order_phone"
+                android:layout_toRightOf="@+id/order_address_indicator"
+                android:text="Azad HUMBATLI"
+                android:id="@+id/order_name"
+                android:textSize="20sp"
+                android:textColor="#686868"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:layout_above="@+id/order_address"
+                android:paddingLeft="10dp"
+                android:id="@+id/order_phone"
+                android:layout_toRightOf="@+id/order_price_indicator"
+                android:text="+994 (55) 225-77-32"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:textColor="#686868"
+                />
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:id="@+id/order_phone_indicator"
+                android:layout_above="@+id/order_name_indicator"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:scaleType="centerInside"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/phone"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:layout_above="@+id/order_name"
+                android:paddingLeft="10dp"
+                android:id="@+id/order_price"
+                android:layout_toRightOf="@+id/order_price_indicator"
+                android:text="25.00 AZN"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#de1623"
+                />
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:id="@+id/order_price_indicator"
+                android:layout_above="@+id/order_address_indicator"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:scaleType="centerInside"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/price"
+                />
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:id="@+id/order_name_indicator"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/location"
+                />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/right_arrow"
+                android:paddingRight="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/order_indicator"
+                />
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:src="@drawable/shadow_bottom"
+        />
+
+</LinearLayout>

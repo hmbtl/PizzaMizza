@@ -1,0 +1,17 @@
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@color/app_base_color"
+    android:elevation="4dp"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" >
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        android:src="@drawable/pizzamizza_logo"/>
+
+    </android.support.v7.widget.Toolbar>
+<!-- From: file:/Users/anar/Android/PizzaMizza/pizzaMizza/src/main/res/layout/app_bar.xml -->

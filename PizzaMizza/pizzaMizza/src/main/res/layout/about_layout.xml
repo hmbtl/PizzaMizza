@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/actionbar_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:src="@drawable/shadow_bottom" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#DE1623">
+
+
+        <ImageView
+            android:id="@+id/call_button"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/callbutton_selector" />
+
+        <TextView
+            android:id="@+id/storeinfo_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:text="bəsti bağırova 2a, az1065, baku"
+            android:textColor="#FFF"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/storeinfo_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/storeinfo_address"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="5dp"
+            android:text="phone *1415"
+            android:textColor="#FFF"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/storeinfo_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/storeinfo_phone"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="5dp"
+            android:text="store info"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:src="@drawable/shadow_bottom" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="#FFF"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-light"
+                android:padding="12dp"
+                android:text="@string/about_text"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

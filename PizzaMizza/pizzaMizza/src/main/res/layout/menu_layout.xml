@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#D8D8D8"
+    >
+
+
+    <include
+        android:layout_alignParentTop="true"
+        android:id="@+id/menu_appbar"
+        layout="@layout/actionbar_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <GridView
+        android:layout_below="@+id/menu_appbar"
+        android:id="@+id/menu_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:horizontalSpacing="3dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="3"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="3dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/menu_appbar"
+        android:src="@drawable/shadow_bottom"
+        />
+
+
+
+
+
+
+</RelativeLayout>

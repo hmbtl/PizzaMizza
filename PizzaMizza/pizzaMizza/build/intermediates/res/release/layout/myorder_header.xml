@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:background="#59bd4a"
+
+        >
+
+        <TextView
+            android:id="@+id/myorders_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:background="#de1623"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="ACCEPTED"
+            android:textColor="#FFF"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/myorders_total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="15dp"
+            android:text="total: 25.20 AZN"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/myorders_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:text="date 12/10/2015 20:14"
+            android:textColor="#FFF"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/myorders_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/myorders_date"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="5dp"
+            android:text="order #110012"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/myorders_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/myorders_id"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="5dp"
+            android:text="carry out"
+            android:textColor="#FFF"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/myorders_customer_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/myorders_total_price"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="15dp"
+            android:text="phone: 124777449"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/myorders_customer_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/myorders_customer_phone"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="15dp"
+            android:text="customer: Azad Humbatli"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/myorders_header_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/shadow_bottom"
+        android:visibility="gone" />
+</LinearLayout><!-- From: file:/Users/anar/Android/PizzaMizza/pizzaMizza/src/main/res/layout/myorder_header.xml -->

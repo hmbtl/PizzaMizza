@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/appbar_red"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/home_button"
+            style="@style/ImageSelector"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:clickable="true"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/home" />
+
+        <TextView
+            android:id="@+id/action_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/appbar_action"
+            style="@style/ImageSelector"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/add"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+
+</LinearLayout><!-- From: file:/Users/anar/Android/PizzaMizza/pizzaMizza/src/main/res/layout/actionbar_items.xml -->

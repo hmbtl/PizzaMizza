@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:background="#fff2f2f2">
+
+    <ImageView
+        android:id="@+id/food_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:background="#ffd9d9d9"
+        android:scaleType="center"
+        android:src="@drawable/pizza_list_margheritta" />
+
+    <TextView
+        android:id="@+id/food_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/food_price"
+        android:layout_toRightOf="@+id/food_image"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:text="MAGHERITTA "
+        android:textColor="#de1625"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/food_topping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/food_image"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:gravity="center"
+        android:text="ONION  - EXTRA | TEREVEZ - NONE"
+        android:textColor="#561520"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/food_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/food_title"
+        android:layout_marginTop="-4dp"
+        android:layout_toRightOf="@+id/food_image"
+        android:paddingBottom="7dp"
+        android:paddingLeft="20dp"
+        android:text="SMALL"
+        android:textColor="#686868"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/food_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:text="25.00 AZN"
+        android:textColor="#686868"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/food_quantity"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/food_image"
+        android:layout_alignTop="@+id/food_image"
+        android:background="#de1623"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="1"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+</RelativeLayout>

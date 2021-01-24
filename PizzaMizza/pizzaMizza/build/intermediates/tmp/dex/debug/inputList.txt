@@ -1,0 +1,13 @@
+/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/classes/debug
+/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-d52430a0dd08c0ecad81f5af5e14507674bb8c0b.jar
+/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-68d6c3290a7759ef5e83ccd45d227a3164b30418.jar
+/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-c602155964bdaeebc946dbab0996347357da252d.jar
+/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-2e97638c85a90a89f05b7a3b64a2b9f8e1284e54.jar
+/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-45e6d629e62c189d2ea13df4b0e9c417ab3eb58b.jar
+/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/picasso-2.5.2-0ab08c649e906f6a067ad7ff00db0b91b1ef11ff.jar
+/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-1743a2fbd0f8ed330ca43d3bb06255ed54cdfc43.jar
+/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-ade67c31761fe78773e878316a55f1336fc92ab3.jar
+/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-e18d48becf0d53c8f3fddae293cfa870fc1c4d19.jar
+/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-5312244e7f9cf889e1055a0606098f9409cc65c4.jar
+/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-be386a3827b6108337527c2374f8fd62aeeccbf9.jar
+/Users/anar/Android/PizzaMizza/pizzaMizza/build/intermediates/pre-dexed/debug/classes-41eb54202adeb7a895d6f2495aabbcdc91cda253.jar
